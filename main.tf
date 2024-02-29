@@ -9,7 +9,7 @@ resource "cloudflare_zone" "this" {
 }
 
 resource "cloudflare_record" "this" {
-  for_each        = var.enabled ? { for r in var.records : "${r.id}" => r } : {}
+  for_each        = var.enabled ? { for r in var.records : r.id => r } : {}
   zone_id         = cloudflare_zone.this[0].id
   name            = each.value.name
   type            = each.value.type
