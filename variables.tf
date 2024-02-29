@@ -41,6 +41,7 @@ variable "type" {
 variable "records" {
   description = "The records to create."
   type = list(object({
+    id              = string
     name            = string
     type            = string
     allow_overwrite = optional(bool)
