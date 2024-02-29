@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.2](https://github.com/finisterra-io/terraform-cloudflare-dns/compare/v1.0.1...v1.0.2) (2024-02-29)
+
+
+### Bug Fixes
+
+* id in map ([fd6c58f](https://github.com/finisterra-io/terraform-cloudflare-dns/commit/fd6c58fe6faa1ebfdf25df9b022f7936b189e1e6))
+
 ### [1.0.1](https://github.com/finisterra-io/terraform-cloudflare-dns/compare/v1.0.0...v1.0.1) (2024-02-28)
 
 
